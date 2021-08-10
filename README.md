@@ -8,18 +8,27 @@
 
 ```sh
 git clone https://github.com/finlandcowboy/command-line-telegram-bot 
+chmod +x build.sh
+./build.sh
 ```
 
 ## Usage
 
-```sh
+In ```config.txt```
+First line argument is <b>YOUR_BOT_TOKEN</b>
+Second line argument is <b>YOUR_CHAT_ID</b>
+```
 ./build.sh
 ```
 
-## Run tests
+```
+sudo apt-get install screen
+screen -dmS ServerBot python3 bot.py -token config.txt
+```
 
-```sh
-321
+If you want to stop bot
+```
+screen -S ServerBot -X quit
 ```
 
 ## Author
