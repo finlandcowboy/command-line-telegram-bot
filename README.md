@@ -1,12 +1,36 @@
-# command-line-telegram-bot
+<h1 align="center">Welcome to Command Line Telegram Bot 👋</h1>
+<p>
+</p>
 
-How to install
+> This bot would help you to execute commands on your server from Telegram Client
 
-git clone <this repo>
-cd command-line-telegram-bot
-chmod +x build.sh
+## Install
+
+```sh
+git clone https://github.com/finlandcowboy/command-line-telegram-bot 
+```
+
+## Usage
+
+```sh
 ./build.sh
+```
 
-In config.txt
-First line is your bot's TOKEN
-Second line is your telegram chat id
+## Run tests
+
+```sh
+321
+```
+
+## Author
+
+👤 **Zhashkov Stepan**
+
+* Github: [@finlandcowboy](https://github.com/finlandcowboy)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
